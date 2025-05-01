@@ -66,9 +66,9 @@
 
 <section id="products">
   <h2>Our Products</h2>
-  <div style="text-align: center;">
-  <img src="assets/hasani.jpg" alt="Hasani Hettiarachchi" style="width: 200px; border-radius: 10px;"><br>
-  <a href="https://www.facebook.com/YourPageName" target="_blank">
+     <div style="text-align: center;">
+       <img src="assets/hasani.jpg" alt="Hasani Hettiarachchi" style="width: 200px; border-radius: 10px;"><br>
+         <a href="https://www.facebook.com/share/p/1AVcioVy6V/" target="_blank">
     https://www.facebook.com/YourPageName
   </a>
 </div>
