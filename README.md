@@ -66,12 +66,12 @@
 
 <section id="products">
   <h2>Our Products</h2>
-  <div class="products">
-    <div class="product">
-      <img src="https://via.placeholder.com/200" alt="Crochet Item" style="width:100%; border-radius:8px;">
-      <h3>Cozy Hat</h3>
-      <p>$25</p>
-    </div>
+  <div style="text-align: center;">
+  <img src="assets/hasani.jpg" alt="Hasani Hettiarachchi" style="width: 200px; border-radius: 10px;"><br>
+  <a href="https://www.facebook.com/YourPageName" target="_blank">
+    https://www.facebook.com/YourPageName
+  </a>
+</div>
     <div class="product">
       <img src="https://via.placeholder.com/200" alt="Crochet Item" style="width:100%; border-radius:8px;">
       <h3>Amigurumi Doll</h3>
