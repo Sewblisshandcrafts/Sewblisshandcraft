@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Sewbliss Handcrafts - Your Crochet Shop</title>
   <style>
     body {
@@ -12,38 +12,64 @@
       background: #fff8f0;
       color: #333;
     }
+
     header {
       background-color: #ffb6b9;
       color: white;
       padding: 40px 20px;
       text-align: center;
+      position: relative;
     }
+
+    .logo {
+      position: absolute;
+      top: 10px;
+      left: 20px;
+      height: 60px;
+    }
+
     section {
       padding: 40px 20px;
       max-width: 900px;
       margin: auto;
     }
+
     h1, h2 {
       margin-bottom: 20px;
     }
+
     .products {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 20px;
+      margin-top: 20px;
     }
+
     .product {
       background: white;
       padding: 15px;
       border-radius: 10px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
+
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
     footer {
       background-color: #ffe0e2;
       text-align: center;
       padding: 20px;
       font-size: 14px;
     }
+
     a {
       color: #ff5e6c;
       text-decoration: none;
@@ -53,6 +79,9 @@
 <body>
 
 <header>
+  <!-- ✅ Company Logo -->
+  <img src="https://github.com/Sewblisshandcrafts/Sewblisshandcraft/blob/main/assets/FB_IMG_1746104350721.jpg?raw=true" 
+       alt="Sewbliss Logo" class="logo" />
   <h1>Welcome to Sewbliss Handcrafts! 🧶</h1>
   <h2>My Crochet World 🌎</h2>
   <h3>Handmade with love!</h3>
@@ -62,74 +91,54 @@
   <h2>About Me</h2>
   <p>Hi! I'm Sevwandhi Hettiarachchi, and I create beautiful, handmade crochet pieces. Every item is crafted with care, creativity, and passion.</p>
   <p>Whether you're looking for cozy accessories, cute gifts, or custom creations, you're in the right place!</p>
+</section>
 
 <section id="products">
   <h2>Our Products</h2>
   <div class="products">
     <div class="product">
       <img src="https://github.com/Sewblisshandcrafts/Sewblisshandcraft/blob/main/assets/493258863_122109122006841704_3636364878957682975_n.jpg?raw=true" 
-           alt="Crochet Item">
+           alt="Crochet Item" />
       <h3>Cat Paw - Small Pouch</h3>
       <p>Rs. 1,500.00</p>
     </div>
 
     <div class="product">
       <img src="https://github.com/Sewblisshandcrafts/Sewblisshandcraft/blob/main/assets/FB_IMG_1746104331592.jpg?raw=true" 
-           alt="Crochet Item">
+           alt="Crochet Item" />
       <h3>Hair Bow Tie</h3>
       <p>Rs. 800.00</p>
     </div>
 
     <div class="product">
       <img src="https://github.com/Sewblisshandcrafts/Sewblisshandcraft/blob/main/assets/FB_IMG_1746104340703.jpg?raw=true" 
-           alt="Crochet Item">
+           alt="Crochet Item" />
       <h3>Make up Pouch</h3>
       <p>Rs. 2,900.00</p>
     </div>
 
     <div class="product">
       <img src="https://github.com/Sewblisshandcrafts/Sewblisshandcraft/blob/main/assets/493258863_122109122006841704_3636364878957682975_n.jpg?raw=true" 
-           alt="Crochet Item">
+           alt="Crochet Item" />
       <h3>Phone Case</h3>
       <p>Rs. 1,500.00</p>
     </div>
   </div>
 </section>
 
-<style>
-  .products {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    margin-top: 20px;
-  }
-
-  .product {
-    background-color: white;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-
-  .product img {
-    width: 100%;
-    border-radius: 8px;
-    height: auto;
-  }
-</style>
-
-
 <section id="contact">
   <h2>Contact Me</h2>
   <p>Want to order or ask a question? I'd love to hear from you!</p>
-  <p>Email: <a href="mailto:sewblisshandcrafts@gmail.com">sewblisshandcrafts@gmail.com</a></p>
+  <p>Email: <a href="mailto:sevarabakes@gmail.com">sevarabakes@gmail.com</a></p>
   <p>Instagram: <a href="https://instagram.com/sewblisshandcrafts" target="_blank">@sewblisshandcrafts</a></p>
 </section>
 
 <footer>
   &copy; 2025 Your Crochet Shop | Handmade Happiness 🧵
 </footer>
+
+</body>
+</html>
 
 </body>
 </html>
